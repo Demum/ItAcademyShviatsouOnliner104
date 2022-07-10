@@ -5,7 +5,7 @@ public class ComputeryISetyTest extends WebDriverSettings {
     @Test
     public void computeryIsetyTest() {
 
-        driver.get("https://www.onliner.by/");
+        driver.get(Locators.urlOfOnlinerBy);
         driver.findElement(Locators.catalogLocator).click();
         driver.findElement(Locators.computeryISetyLocator).click();
 

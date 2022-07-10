@@ -5,7 +5,7 @@ public class CatalogTest extends WebDriverSettings {
 
     @Test
     public void onlinerSiteCatalogTest() {
-        driver.get("https://www.onliner.by/");
+        driver.get(Locators.urlOfOnlinerBy);
         driver.findElement(Locators.catalogLocator).click();
 
         isDisplayed(Locators.electronikaLocator);

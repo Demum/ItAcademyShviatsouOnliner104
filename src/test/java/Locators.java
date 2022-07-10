@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 
 public class Locators {
+  public static final  String urlOfOnlinerBy = "https://www.onliner.by/";
   public static final  By catalogLocator = By.xpath("//a[contains(text(), 'Каталог')][1]");
   public static final   By electronikaLocator = By.xpath("//span[contains(text(), 'Электроника')] ");
   public static final   By computeryISetyLocator = By.xpath("//span[contains(text(),'Компьютеры и')] [contains(text(),'сети')]");
