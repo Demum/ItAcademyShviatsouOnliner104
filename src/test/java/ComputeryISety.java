@@ -6,13 +6,13 @@ public class ComputeryISety extends WebDriverSettings {
     public void computeryIsetyTest() {
 
         driver.get("https://www.onliner.by/");
-        driver.findElement(catalogLocator).click();
-        driver.findElement(computeryISetyLocator).click();
+        driver.findElement(Locators.catalogLocator).click();
+        driver.findElement(Locators.computeryISetyLocator).click();
 
-        isDisplayed(noutbukiComputeryMonitoryLocator);
-        isDisplayed(komplectuyschieLocator);
-        isDisplayed(hranenieDannihLocator);
-        isDisplayed(setevoeOborudovanieLocator);
+        isDisplayed(Locators.noutbukiComputeryMonitoryLocator);
+        isDisplayed(Locators.komplectuyschieLocator);
+        isDisplayed(Locators.hranenieDannihLocator);
+        isDisplayed(Locators.setevoeOborudovanieLocator);
     }
 
 }

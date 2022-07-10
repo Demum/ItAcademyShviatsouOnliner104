@@ -6,27 +6,27 @@ public class CatalogTest extends WebDriverSettings {
     @Test
     public void onlinerSiteCatalogTest() {
         driver.get("https://www.onliner.by/");
-        driver.findElement(catalogLocator).click();
+        driver.findElement(Locators.catalogLocator).click();
 
-        isDisplayed(electronikaLocator);
+        isDisplayed(Locators.electronikaLocator);
 
-        isDisplayed(computeryISetyLocator);
+        isDisplayed(Locators.computeryISetyLocator);
 
-        isDisplayed(bitovayaTehnikaLocator);
+        isDisplayed(Locators.bitovayaTehnikaLocator);
 
-        isDisplayed(stroykaIRemontLocator);
+        isDisplayed(Locators.stroykaIRemontLocator);
 
-        isDisplayed(domISadLocator);
+        isDisplayed(Locators.domISadLocator);
 
-        isDisplayed(avtoIMotoLocator);
+        isDisplayed(Locators.avtoIMotoLocator);
 
-        isDisplayed(krasotaISportLocator);
+        isDisplayed(Locators.krasotaISportLocator);
 
-        isDisplayed(detyamIMamamLocator);
+        isDisplayed(Locators.detyamIMamamLocator);
 
-        isDisplayed(rabotaIOficeLocator);
+        isDisplayed(Locators.rabotaIOficeLocator);
 
-        isDisplayed(edaLocator);
+        isDisplayed(Locators.edaLocator);
 
 
     }
