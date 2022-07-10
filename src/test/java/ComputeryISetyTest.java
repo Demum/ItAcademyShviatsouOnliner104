@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-public class ComputeryISety extends WebDriverSettings {
+public class ComputeryISetyTest extends WebDriverSettings {
 
     @Test
     public void computeryIsetyTest() {

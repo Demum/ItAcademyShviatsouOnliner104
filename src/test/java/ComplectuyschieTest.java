@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-public class Complectuyschie extends WebDriverSettings{
+public class ComplectuyschieTest extends WebDriverSettings{
     @Test
     public void complectuyschieTest(){
         driver.get("https://www.onliner.by/");
